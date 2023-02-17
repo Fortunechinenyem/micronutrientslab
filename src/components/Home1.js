@@ -42,7 +42,7 @@ const Home1 = () => {
         <img
           src={logo}
           alt={Home1.png}
-          className="col-md w-50 mb-4 "
+          className="col-md "
           height="350px"
           style={{ objectFit: "cover" }}
         />
