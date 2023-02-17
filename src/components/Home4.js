@@ -18,42 +18,42 @@ const Home4 = () => {
             src={logo}
             alt={Home4.jpg}
             className="col-md"
-            height="350px"
+            height="250px"
             style={{ objectFit: "cover" }}
           />
           <img
             src={logo1}
             alt={Home4.jpg}
             className="col-md"
-            height="350px"
+            height="250px"
             style={{ objectFit: "cover" }}
           />
           <img
             src={logo2}
             alt={Home4.jpg}
             className="col-md"
-            height="350px"
+            height="250px"
             style={{ objectFit: "cover" }}
           />
           <img
             src={logo3}
             alt={Home4.jpg}
             className="col-md"
-            height="350px"
+            height="250px"
             style={{ objectFit: "cover" }}
           />
           <img
             src={logo4}
             alt={Home4.jpg}
             className="col-md"
-            height="350px"
+            height="250px"
             style={{ objectFit: "cover" }}
           />
           <img
             src={logo5}
             alt={Home4.jpg}
             className="col-md"
-            height="350px"
+            height="250px"
             style={{ objectFit: "cover" }}
           />
         </div>
