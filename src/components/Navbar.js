@@ -89,12 +89,17 @@ const NavLinks = () => {
       </li>
       <li className="nav-item ">
         <Link className="nav-link" to="/distributor">
-          Distributors
+          Blog
         </Link>
       </li>
       <li className="nav-item ">
         <Link className="nav-link" to="/contact">
           Contact Us
+        </Link>
+      </li>
+      <li>
+        <Link className="" to="/cart">
+          <NavCartButton />
         </Link>
       </li>
     </LinksWrapper>
@@ -113,9 +118,6 @@ const NavBar = () => {
         <SearchBar />
         <NavLinks />
       </SearchNavWrapper>
-      <Link className="" to="/cart">
-        <NavCartButton />
-      </Link>
     </Nav>
   );
 };

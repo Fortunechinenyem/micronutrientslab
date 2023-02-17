@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../images/m3.PNG";
+import logo from "../images/m (1).jpg";
 
 const AboutHero = () => {
   return (

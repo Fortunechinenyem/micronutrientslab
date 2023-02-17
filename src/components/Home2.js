@@ -20,7 +20,7 @@ const Home2 = () => {
             highest food safety standards offers the following nutritional
             benefits;
           </p>
-          <Link to="/product" className="btn btn-dark mt-4">
+          <Link to="/product" className="btn btn-primary mt-4">
             Learn More
           </Link>
         </div>
