@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { NavLink as Link, useNavigate } from "react-router-dom";
-
+import NavCartButton from "../components/productcart/NavCartButton";
 import logo from "../images/micrologo.PNG";
 
 const Nav = styled("nav")`
@@ -81,6 +81,11 @@ const NavLinks = () => {
         </Link>
       </li>
       <li className="nav-item">
+        <Link className="nav-link" to="/cart" style={{ color: "#268f7d" }}>
+          Cart
+        </Link>
+      </li>
+      <li className="nav-item">
         <Link className="nav-link" to="/blog" style={{ color: "#268f7d" }}>
           Blog
         </Link>
@@ -108,6 +113,9 @@ const Navbar = () => {
           <Link to="/product" className="btn btn-warning">
             Order
           </Link>
+        </ButtonWrapper>
+        <ButtonWrapper>
+          <NavCartButton />
         </ButtonWrapper>
       </SearchNavWrapper>
     </Nav>
