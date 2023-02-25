@@ -105,9 +105,9 @@ const Navbar = () => {
       >
         <NavLinks />
         <ButtonWrapper>
-          <a href="https://wa.link/o688gi" className="btn btn-warning">
+          <Link to="/product" className="btn btn-warning">
             Order
-          </a>
+          </Link>
         </ButtonWrapper>
       </SearchNavWrapper>
     </Nav>
