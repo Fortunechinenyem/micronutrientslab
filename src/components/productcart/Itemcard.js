@@ -18,7 +18,7 @@ function Itemcard(props) {
           <p>{props.desc}</p>
           <p>N{props.price}</p>
           <button
-            className="btn btn-secondary"
+            className="btn btn-warning"
             onClick={() => addItem(props.item)}
           >
             Add to Cart

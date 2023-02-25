@@ -1,12 +1,10 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 const Blog = () => {
   return (
-    <div className="bloghero">
-      <div className="bloghero__text">
-        <div className="bloghero__text__heading">EXAMPLE</div>
-        <div className="bloghero__text__body">This is some example text.</div>
-      </div>
+    <div className="">
+      <Footer />
     </div>
   );
 };

@@ -6,7 +6,7 @@ const ProductHero = () => {
     <section className="producthero ">
       <div className="">
         <div className="herotext">
-          <Link to="/product" className="btn btn-dark mt-4">
+          <Link to="/product" className="btn btn-warning mt-4">
             Order
           </Link>
         </div>

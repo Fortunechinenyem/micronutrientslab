@@ -5,13 +5,13 @@ const About1 = () => {
     <section className="container mt-2 mb-2">
       <div>
         <p>
-          We design, formulate and produce various vitamins and minerals blends
-          for the food and beverage industry. Collaboration and partnership with
-          government, and private partners in the fight against malnutrition.
-          Production and delivery's of our instant micronutrient brand called
-          Cognito, which is global nutrition solution. Working inline with
-          regulatory agencies to ensure products are manufactured inline with
-          global food safety standards.
+          Micronutrient Laboratories Ltd was founded by a world renowned expert
+          with over 30 years industry experince in micronutrient formulation,
+          design and prodution. Micronutrient Laboratories Ltd is an indigenous
+          science and technology company positioned to design, produce and
+          deliver Micronutrient powder and other active ingeridients for the
+          Food, Pharmaceutical/Healthcare and other specialty ingredients
+          industries.
         </p>
       </div>
     </section>

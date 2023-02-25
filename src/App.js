@@ -12,6 +12,7 @@ import Checkout from "./pages/Checkout";
 import Cart from "./pages/Cart";
 import Blog from "./pages/Blog";
 import Navbar from "./components/Navbar";
+import Team from "./pages/Team";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/team" element={<Team />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />

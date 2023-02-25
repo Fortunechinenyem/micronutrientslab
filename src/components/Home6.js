@@ -43,7 +43,6 @@ const Home6 = () => {
         />
 
         <div className="col-md text-center">
-          <h2>WIN THE FIGHT AGAINST MALNUTRITION WITH COGNITO</h2>
           <p>
             Cognito Micronutrient Powder fortifies foods for infants to fight
             malnutrition Micronutrient Laboratories Limited brought into the

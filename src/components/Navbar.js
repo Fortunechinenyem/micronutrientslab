@@ -64,12 +64,12 @@ const NavLinks = () => {
         </Link>
         <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <li>
-            <Link to="/about" className="dropdown-item nav-link" href="#">
+            <Link to="/about" className="dropdown-item nav-link">
               Company
             </Link>
           </li>
           <li>
-            <Link to="/about" className="dropdown-item nav-link" href="#">
+            <Link to="/team" className="dropdown-item nav-link">
               Our Team
             </Link>
           </li>
