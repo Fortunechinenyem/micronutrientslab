@@ -7,7 +7,7 @@ const Home2 = () => {
     <section className=" mt-5 mb-5">
       <div className=" mx-auto ">
         <div className="col-md text-center">
-          <h4>Benefits</h4>
+          <h3>Benefits of Cognito</h3>
           <p>
             {" "}
             Every child deserves a healthy diet filled with the goodness of
@@ -20,9 +20,6 @@ const Home2 = () => {
             highest food safety standards offers the following nutritional
             benefits;
           </p>
-          <Link to="/product" className="btn btn-primary mt-4">
-            Learn More
-          </Link>
         </div>
       </div>
     </section>

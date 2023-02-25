@@ -13,11 +13,9 @@
   --fw-reg: 400;
   --fw-bold: 700;
 
-  --clr-light: rgb(218, 221, 230);
-  --clr-dark: #272775;
-  --clr-accent: #d68f25;
-  --clr-alternate: #e1e6e7;
-  --clr-sisi: #3e3b50;
+  --clr-light: #fbf9ff;
+  --clr-dark: #09090a;
+  --clr-accent: #efd80e;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -60,16 +58,16 @@ strong {
   font-weight: var(--fw-bold);
 }
 
-.button {
+.btn {
   display: inline-block;
-  padding: 0.5em 2em;
-  background: var(--clr-dark) !;
-  color: var(--clr-light);
+  padding: 0.5em 2.5em;
+  background: var(--clr-light);
+  color: var(--clr-dark);
   text-decoration: none;
   cursor: pointer;
   font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
 }
@@ -99,93 +97,101 @@ h3 {
   font-size: var(--fs-h3);
 }
 
-header {
+/* header */
+.header {
   display: flex;
   justify-content: space-between;
-  background-color: var(--clr-accent);
   padding: 1em;
 }
 
+.welcome {
+  text-align: center;
+  color: var(--clr-light);
+  background-color: rgb(170, 38, 140);
+}
 .logo {
   max-width: 80px;
-  color: var(--clr-light);
+  background-color: var(--clr-dark);
+  color: rgb(170, 38, 140);
 }
 
-.header {
-  justify-content: space-between;
-}
-.nav2 {
-  justify-content: flex-end;
-  background-color: var(--clr-light);
-}
 .hamburger {
-  border: 0;
-  height: 40px;
-  width: 40px;
-  padding: 0.5rem;
-  border-radius: 50%;
-  background-color: #283b8b;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-
-  position: absolute;
-  top: 50%;
-  right: 25px;
-  transform: translateY(-50%);
-  display: none;
-}
-.hamburger:hover {
-  background-color: #2642af;
-}
-@media screen and (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-
-  .navigation-menu ul {
-    display: none;
-  }
-  .navigation-menu.expanded ul {
-    display: block;
-  }
-  .navigation-menu ul {
-    position: absolute;
-    top: 60px;
-    left: 0;
-
-    flex-direction: column;
-
-    width: 100%;
-    height: calc(100vh - 77px);
-    background-color: white;
-    border-top: 1px solid black;
-  }
-  .navigation-menu li {
-    text-align: center;
-    margin: 0;
-  }
-  .navigation-menu li a {
-    color: black;
-
-    width: 100%;
-    padding: 1.5rem 0;
-  }
-  .navigation-menu li:hover {
-    background-color: #eee;
-  }
-}
-.section__title--services {
-  color: var(--clr-dark);
+  display: block;
   position: relative;
 }
 
-.section__title--services::after {
-  content: "";
-  display: block;
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  background: var(--clr-dark);
   width: 2em;
-  height: 1px;
-  margin: 0.5em auto 1em;
-  background: var(--clr-accent);
+  height: 3px;
+  border-radius: 1em;
+  transition: transform 250ms ease-in-out;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.hamburger::before {
+  top: 6px;
+}
+
+.hamburger::after {
+  bottom: 6px;
+}
+.header {
+  justify-content: space-between;
+}
+.menuheader {
+  border-radius: 10px;
+}
+.cartheader {
+  border-radius: 10px;
+}
+/* .containerh {
+  margin: 10px;
+  padding: 10px;
+} */
+/* .herotext1 {
+ transform: translateX(50px);
+  transform: translateY(80px);
+  color: rgb(134, 59, 116) ;
+} */
+
+.card-body {
+  background: var(--clr-light);
+  text-align: center;
+}
+
+.card-body1 {
+  background: var(--clr-dark);
+}
+
+.card-header {
+  text-align: center;
+  color: rgb(170, 38, 140) !;
+}
+
+.card-text {
+  color: var(--clr-dark);
+}
+
+.card-text1 {
+  text-align: center;
+  color: var(--clr-dark);
+}
+
+.feature {
+  align-items: center;
+}
+.flashimg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 /* home */
 .homehero {
@@ -195,62 +201,80 @@ header {
   /* Flexbox stuff */
   display: flex;
   justify-content: center;
+  margin: 1px 0px 10px 0px;
   align-items: center;
   text-align: center;
   text-align: center;
+  color: white; /* ADD THIS LINE */
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("./images/mic\ \(3\).jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.herotext {
   color: var(--clr-light);
-
-  /* Background styles */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("./images/m (3).jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
-.home5 {
+.herotext1 {
+  color: var(--clr-accent);
+}
+
+/* About */
+.abouthero {
   width: 100vw;
   height: 100vh;
 
-  /* Background styles */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("./images/mi\ \(6\).jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-/* Product */
-.producthero {
-  width: 100vw;
-  height: 100vh;
-
+  /* Flexbox stuff */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   text-align: center;
-  color: var(--clr-light);
+  color: white; /* ADD THIS LINE */
 
   /* Background styles */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("./images/mi (4).jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/mic\ \(3\).jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+/* cart */
+
+.cartbtn {
+  gap: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 8px;
+  gap: 12px;
+
+  border-radius: 6px;
+
+  background: var(--clr-accent);
+}
 /* Footer */
+.paylist {
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
 .footer {
-  background: var(--clr-dark);
+  background: rgb(101, 113, 121);
   color: var(--clr-light);
   text-align: center;
-  align-content: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);
-}
-.footerlogo {
-  margin: 10 10 10 10;
 }
 
 .footer a {
@@ -274,7 +298,6 @@ header {
 .social-list {
   list-style: none;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   margin: 2em 0 0;
   padding: 0;

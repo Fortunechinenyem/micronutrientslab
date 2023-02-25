@@ -6,9 +6,12 @@ const HomeHero = () => {
     <section className="homehero ">
       <div className="">
         <div className="herotext">
-          <h5>Welcome to MicroNutrients Lab</h5>
-          <h1> MANUFACTURER OF COGNITO </h1>
-          <Link to="/about" className="btn btn-primary mt-4">
+          <h1>Welcome to MicroNutrients Lab</h1>
+          <h5>
+            Manufacturer and Distributor of{" "}
+            <span className="herotext1">COGNITO PRODUCTS</span>
+          </h5>
+          <Link to="/about" className="btn btn-light mt-4">
             Read More <BsArrowRight />
           </Link>
         </div>

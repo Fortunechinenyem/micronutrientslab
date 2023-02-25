@@ -1,9 +1,16 @@
 import React from "react";
-import logo from "../images/cognito.PNG";
+import logo from "../images/micrologo.PNG";
 import styled from "styled-components";
-
+import "./FooterStyles.css";
 import { Link, useNavigate } from "react-router-dom";
-
+import {
+  FaPhone,
+  FaMailBulk,
+  FaLinkedin,
+  FaTwitter,
+  FaFacebook,
+} from "react-icons/fa";
+import { GoLocation } from "react-icons/go";
 const LogoWrapper = styled("div")`
   margin-right: 5rem;
 `;
@@ -17,11 +24,34 @@ const Logo = () => {
 };
 const Footer = () => {
   return (
-    <>
-      <section>
-        <footer className="footer">
-          <Logo className="mb-5" />
+    <section className="footer">
+      <Logo className="mb-5" />
+      <div className="d-flex container">
+        <div className="left">
+          <h3>Contact Us</h3>
+          <h4>
+            <FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+            +234(802) 4430 439 +234(802) 4430 439
+          </h4>
+          <h4 className="email">
+            <FaMailBulk
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }}
+            />
+            mudassar@gmail.com
+          </h4>
 
+          <div className="location">
+            <GoLocation
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }}
+            />
+            Plot C39A, Amuwo Odofin Commerical Scheme, Along Alakoso Avenue,
+            Amuwo Odofin, Lagos, Nigeria
+          </div>
+        </div>
+        <div className="center">
+          <h3>Our Services</h3>
           <div>
             <Link className="nav-link" to="/">
               Home
@@ -36,60 +66,34 @@ const Footer = () => {
               Blog
             </Link>
             <Link className="nav-link" to="/about">
-              Contact
+              Get Cognito
             </Link>
           </div>
-          <div>
-            <a
-              href="mailto:fortunechinenyem@gmail.com"
-              className="footer__link"
-            >
-              info@micronutrientslab.com
-            </a>
-            <ul className="social-list">
-              <li className="social-list__item">
-                <a
-                  className="social-list__link"
-                  href="https://www.linkedin.com"
-                >
-                  <i className="fab fa-linkedin"></i>
-                </a>
-              </li>
-              <li className="social-list__item">
-                <a className="social-list__link" href="https://twitter.com">
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </li>
 
-              <li className="social-list__item">
-                <a
-                  className="social-list__link"
-                  href="https://www.facebook.com"
-                >
-                  <i className="fab fa-facebook"></i>
-                </a>
-              </li>
-              <li className="social-list__item">
-                <a
-                  className="social-list__link"
-                  href="https://www.whatsapp.com"
-                >
-                  <i className="fab fa-whatsapp"></i>
-                </a>
-              </li>
-            </ul>
+          <div className="right">
+            <div className="social">
+              <FaFacebook
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+              <FaLinkedin
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+
+              <FaTwitter
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </div>
           </div>
-          <p>
-            Address: Plot C39A, Amuwo Odofin Commerical Scheme, Along Alakoso
-            Avenue, Amuwo Odofin, Lagos, Nigeria
-          </p>
-          <p className="mt-5 mb-1">
-            {" "}
-            ​Copyright © 2023, Fortune.dev. All Rights Reserved.
-          </p>
-        </footer>
-      </section>
-    </>
+        </div>
+      </div>
+      <p className="mt-5 mb-1">
+        ​Copyright © 2023, Fortune.dev. All Rights Reserved by{" "}
+        <span className="herotext1">MICRONUTRIENT LAB</span>
+      </p>
+    </section>
   );
 };
 export default Footer;

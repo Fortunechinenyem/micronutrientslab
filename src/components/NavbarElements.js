@@ -23,6 +23,9 @@ export const NavLink = styled(Link)`
     color: #000000;
   }
 `;
+export const Logo = styled("div")`
+  margin-right: 2rem;
+`;
 
 export const Bars = styled(FaBars)`
   display: none;

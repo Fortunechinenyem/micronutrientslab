@@ -1,0 +1,49 @@
+.blogheader {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.bloghero {
+  display: table-cell;
+  vertical-align: middle;
+  background-image: url("images/mic (1).png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.bloghero__text {
+  margin: auto;
+  text-align: center;
+  width: 40vw;
+  padding: 5vw;
+  font-family: sans-serif;
+  color: white;
+  border: 2px solid white;
+}
+
+.bloghero__text__heading {
+  font-size: 7vw;
+}
+
+.bloghero__text__body {
+  padding-top: 1vw;
+  font-size: 2vw;
+}
+
+@media only screen and (max-width: 700px) {
+  .bloghero__text {
+    width: 50vw;
+  }
+
+  .bloghero__text__heading {
+    font-size: 11vw;
+  }
+
+  .bloghero__text__body {
+    font-size: 4vw;
+  }
+}
