@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
-
 const Home2 = () => {
   return (
     <section className=" mt-5 mb-5">
