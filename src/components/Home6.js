@@ -58,6 +58,14 @@ const Home6 = () => {
           </Link>
         </div>
       </div>
+      <div className="text-center mt-4 mb-4">
+        <h3 className="text-center">Join Our Distributorship Community</h3>
+      </div>
+      <div className="text-center">
+        <Link to="/distributor" className="btn btn-warning mt-4 mb-3">
+          Become A distributor <BsArrowRight />
+        </Link>
+      </div>
     </section>
   );
 };
