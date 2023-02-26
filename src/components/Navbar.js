@@ -80,11 +80,7 @@ const NavLinks = () => {
           Product
         </Link>
       </li>
-      <li className="nav-item">
-        <Link className="nav-link" to="/cart" style={{ color: "#268f7d" }}>
-          Cart
-        </Link>
-      </li>
+
       <li className="nav-item">
         <Link className="nav-link" to="/blog" style={{ color: "#268f7d" }}>
           Blog
@@ -115,7 +111,9 @@ const Navbar = () => {
           </Link>
         </ButtonWrapper>
         <ButtonWrapper>
-          <NavCartButton />
+          <Link className="nav-link" to="/cart" style={{ color: "#268f7d" }}>
+            <NavCartButton />
+          </Link>
         </ButtonWrapper>
       </SearchNavWrapper>
     </Nav>
