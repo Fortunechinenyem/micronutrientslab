@@ -7,7 +7,7 @@ const BlogHero = () => {
     <section className="container mt-2 mb-4">
       <div className=" mx-auto ">
         <div className="col-md text-center" id="#company">
-          <h1>Blog</h1>
+          <h1>Blog Post</h1>
         </div>
 
         <img

@@ -6,16 +6,9 @@ const Blog1 = () => {
   return (
     <section className="container mt-2 mb-4">
       <div className="d-flex row g-5 mx-auto ">
-        <img
-          src={logo}
-          alt={Blog1.PNG}
-          className="col-md "
-          height="250px"
-          style={{ objectFit: "cover" }}
-        />
         <div className="col-md text-center">
+          <h2>SON grants MANCAP Certification to Micro Nutrients Lab</h2>
           <p>
-            SON grants MANCAP certification to Micronutrient Laboratories
             Quality standards regulator, the Standards Organisation of Nigeria
             (SON), has granted the Mandatory Conformity Assessment Programme
             (MANCAP) certification to Cognito® Instant Micronutrient Powder
@@ -25,6 +18,13 @@ const Blog1 = () => {
             the requirements of NIS 1059:2019
           </p>
         </div>
+        <img
+          src={logo}
+          alt={Blog1.PNG}
+          className="col-md "
+          height="250px"
+          style={{ objectFit: "cover" }}
+        />
       </div>
     </section>
   );
