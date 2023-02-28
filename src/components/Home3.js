@@ -19,7 +19,7 @@ const Home3 = () => {
                 height="250px"
                 style={{ objectFit: "cover" }}
               />
-              <h5>Win with Policies</h5>
+              <h5 className="mt-3 mb-3">Win with Policies</h5>
               <p>
                 Government officials, health ministers, commissioners and
                 policymakers.
@@ -33,7 +33,7 @@ const Home3 = () => {
                 height="250px"
                 style={{ objectFit: "cover" }}
               />
-              <h5>Strengthen Our Healthcare System</h5>
+              <h5 className="mt-3 mb-3">Strengthen Our Healthcare System</h5>
               <p>
                 Nutritionists, Pharmacists, Parents Paediatriations, Healthcare
                 professionals
@@ -47,7 +47,7 @@ const Home3 = () => {
                 height="250px"
                 style={{ objectFit: "cover" }}
               />
-              <h5>Build Our Future</h5>
+              <h5 className="mt-3 mb-3">Build Our Future</h5>
               <p>
                 International Organizations, Benefactors/Philanthropists,
                 Charity Organizations, Non-Governmental Organizations.
