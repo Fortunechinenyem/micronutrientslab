@@ -61,9 +61,11 @@ const Home5 = () => {
         </div> */}
         <div className="card home5 w-75 mx-auto">
           <h4 className="mt-3">The Choice is yours to Make you Healthy</h4>
-          <Link to="/blog" className="btn btn-warning mt-4 w-50 mx-auto mb-3">
-            Get Started <BsArrowRight />
-          </Link>
+          <div className="text-center">
+            <Link to="/blog" className="btn btn-warning mt-4 mb-3">
+              Get Started <BsArrowRight />
+            </Link>
+          </div>
         </div>
       </div>
     </section>
