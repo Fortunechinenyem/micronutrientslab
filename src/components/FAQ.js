@@ -5,9 +5,9 @@ import logo from "../images/micro2.PNG";
 
 const FAQ = () => {
   return (
-    <section className="container mt-4 mb-2">
+    <section className="container mt-4 mb-4">
       <div className="text-center mt-4 mb-4">
-        <h3>Frequently Asked Questions</h3>
+        <h3 className="mt-3 mb-5">Frequently Asked Questions</h3>
       </div>
       <div className="d-flex row g-5 mx-auto ">
         <img
@@ -18,10 +18,10 @@ const FAQ = () => {
           style={{ objectFit: "cover" }}
         />
         <div className="col-md text-center">
-          <div class="form-floating mb-3">
+          <div class="form-floating mb-3 ">
             <input
               type="email"
-              class="form-control"
+              class="form-control bg-warning"
               id="floatingInput"
               placeholder="how Can I improve my Child's Health?"
             />
@@ -32,7 +32,7 @@ const FAQ = () => {
           <div class="form-floating">
             <input
               type="password"
-              class="form-control"
+              class="form-control bg-primary"
               id="floatingPassword"
               placeholder="Any Side effect for Cognito? "
             />
@@ -43,7 +43,7 @@ const FAQ = () => {
           <div class="form-floating">
             <input
               type="password"
-              class="form-control"
+              class="form-control bg-primary"
               id="floatingPassword"
               placeholder="Any Side effect for Cognito? "
             />
@@ -54,7 +54,7 @@ const FAQ = () => {
           <div class="form-floating">
             <input
               type="password"
-              class="form-control"
+              class="form-control bg-primary"
               id="floatingPassword"
               placeholder="Any Side effect for Cognito? "
             />

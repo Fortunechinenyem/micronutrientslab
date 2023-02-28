@@ -47,6 +47,8 @@ html {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
+  scroll-snap-type: y mandatory;
+  scroll-snap-align: center;
 }
 
 img {
@@ -221,7 +223,15 @@ h3 {
 .herotext1 {
   color: var(--clr-accent);
 }
-
+/* .scroll-container {
+  scroll-snap-type: y mandatory;
+}
+.item {
+  scroll-snap-align: center;
+} */
+.home5 {
+  background: var(--clr-dark);
+}
 /* About */
 .abouthero {
   width: 100vw;

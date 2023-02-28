@@ -5,7 +5,7 @@ const Home2 = () => {
     <section className=" mt-5 mb-5">
       <div className=" mx-auto ">
         <div className="col-md text-center">
-          <h3>Benefits of Cognito</h3>
+          <h3 className="mt-3 mb-3">Benefits of Cognito</h3>
           <p>
             {" "}
             Every child deserves a healthy diet filled with the goodness of

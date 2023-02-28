@@ -1,37 +1,58 @@
 import React from "react";
 
-import logo from "../images/mic (1).jpg";
-import logo1 from "../images/mic (2).jpg";
-import logo2 from "../images/mic (3).jpg";
+import logo from "../images/micro12.PNG";
+import logo1 from "../images/mi (6).jpg";
+import logo2 from "../images/micro13.PNG";
 
 const Home3 = () => {
   return (
     <section className="container mt-2 mb-2">
       <div className=" ">
         <div className=" text-center">
-          <h3 className="mt-5 mb-3">People that can use Cognito</h3>
-          <div className="d-flex container row g-3">
-            <img
-              src={logo}
-              alt={Home3.jpg}
-              className="col-md "
-              height="350px"
-              style={{ objectFit: "cover" }}
-            />
-            <img
-              src={logo1}
-              alt={Home3.jpg}
-              className="col-md "
-              height="350px"
-              style={{ objectFit: "cover" }}
-            />
-            <img
-              src={logo2}
-              alt={Home3.jpg}
-              className="col-md "
-              height="350px"
-              style={{ objectFit: "cover" }}
-            />
+          <h3 className="mt-5 mb-5">Markers of change</h3>
+          <div className="d-flex container row g-4">
+            <div className="card col-md-4 col-sm-12">
+              <img
+                src={logo}
+                alt={Home3.jpg}
+                className=""
+                height="250px"
+                style={{ objectFit: "cover" }}
+              />
+              <h5>Win with Policies</h5>
+              <p>
+                Government officials, health ministers, commissioners and
+                policymakers.
+              </p>
+            </div>
+            <div className="card col-md-4 col-sm-12">
+              <img
+                src={logo1}
+                alt={Home3.jpg}
+                className=" "
+                height="250px"
+                style={{ objectFit: "cover" }}
+              />
+              <h5>Strengthen Our Healthcare System</h5>
+              <p>
+                Nutritionists, Pharmacists, Parents Paediatriations, Healthcare
+                professionals
+              </p>
+            </div>
+            <div className="card col-md-4 col-sm-12">
+              <img
+                src={logo2}
+                alt={Home3.jpg}
+                className=" "
+                height="250px"
+                style={{ objectFit: "cover" }}
+              />
+              <h5>Build Our Future</h5>
+              <p>
+                International Organizations, Benefactors/Philanthropists,
+                Charity Organizations, Non-Governmental Organizations.
+              </p>
+            </div>
           </div>
         </div>
       </div>

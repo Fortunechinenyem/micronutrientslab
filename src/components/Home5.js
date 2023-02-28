@@ -1,13 +1,15 @@
 import React from "react";
-import logo from "../images/t1.PNG";
-import logo1 from "../images/t2.PNG";
-import logo2 from "../images/t3.PNG";
+import { Link } from "react-router-dom";
+// import logo from "../images/t1.PNG";
+// import logo1 from "../images/t2.PNG";
+// import logo2 from "../images/t3.PNG";
+import { BsArrowRight } from "react-icons/bs";
 
 const Home5 = () => {
   return (
     <section className="mt-5 mb-2">
       <div className="text-center">
-        <div
+        {/* <div
           id="carouselExampleIndicators"
           className="carousel slide home5 text-center "
           data-ride="carousel"
@@ -56,6 +58,12 @@ const Home5 = () => {
             ></span>
             <span className="sr-only">Next</span>
           </a>
+        </div> */}
+        <div className="card home5 w-75 mx-auto">
+          <h4 className="mt-3">The Choice is yours to Make you Healthy</h4>
+          <Link to="/blog" className="btn btn-warning mt-4 w-50 mx-auto mb-3">
+            Get Started <BsArrowRight />
+          </Link>
         </div>
       </div>
     </section>

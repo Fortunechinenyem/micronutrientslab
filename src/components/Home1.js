@@ -11,6 +11,10 @@ const Home1 = () => {
           <p>ABOUT COGNITO</p>
           <h2>WIN THE FIGHT AGAINST MALNUTRITION WITH COGNITO</h2>
           <p>
+            UNICEF state that Nigeria has the second-highest burden of stunted
+            children globally. Sadly, an estimated two millions children in
+            Nigeria suffer from Severe Acute Malnutrition (SAM), but the country
+            reached only two out of every ten children affected with treatment.
             Cognito® MNP is a well-formulated single-serve blend of 15 essential
             micronutrients (10 vitamins and five minerals). It is a free-flowing
             powder that is conveniently packed in 1gram affordable sachets to
