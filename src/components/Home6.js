@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
+import { CiDeliveryTruck } from "react-icons/ci";
 import logo1 from "../images/mi (6).jpg";
 import logo from "../images/son.PNG";
 
@@ -66,7 +67,7 @@ const Home6 = () => {
       </div>
       <div className="text-center">
         <Link to="/distributor" className="btn btn-warning mt-4 mb-3">
-          Become A distributor <BsArrowRight />
+          Become A distributor <CiDeliveryTruck />
         </Link>
       </div>
     </section>
