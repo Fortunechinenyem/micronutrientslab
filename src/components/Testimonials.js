@@ -8,8 +8,8 @@ const Testimonials = () => {
   return (
     <section className="container mt-2 mb-4">
       <div className=" mx-auto ">
-        <div className="col-md text-center" id="#company">
-          <h1 className="text-center mt-2 mb-3">Meet Our Excellent Team</h1>
+        <div className="col-md text-center" id="#testimonials">
+          <h1 className="text-center mt-2 mb-3">Testimonials</h1>
         </div>
 
         {/* <img
