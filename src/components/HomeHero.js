@@ -9,9 +9,9 @@ const HomeHero = () => {
           <h1>Welcome to MicroNutrients Lab</h1>
           <h5>
             Manufacturer and Distributor of{" "}
-            <span className="herotext1">COGNITO PRODUCTS</span>
+            <span style={{ color: "#FDA50F" }}>COGNITO PRODUCTS</span>
           </h5>
-          <Link to="/about" className="btn btn-light mt-4">
+          <Link to="/about" className="btn btn-warning mt-4">
             Read More <BsArrowRight />
           </Link>
         </div>

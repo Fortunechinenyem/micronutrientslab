@@ -202,16 +202,16 @@ h3 {
 
   /* Flexbox stuff */
   display: flex;
-  justify-content: center;
+
   margin: 1px 0px 10px 0px;
-  align-items: center;
-  text-align: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
+
   color: white; /* ADD THIS LINE */
 
   /* Background styles */
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("./images/mic\ \(3\).jpg");
+    url("./images/micro21.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -219,6 +219,9 @@ h3 {
 }
 .herotext {
   color: var(--clr-light);
+  transform: translateX(180px);
+  transform: translateY(180px);
+  margin: 0px 0px 10px 20px;
 }
 .herotext1 {
   color: var(--clr-accent);
@@ -229,9 +232,74 @@ h3 {
 .item {
   scroll-snap-align: center;
 } */
+.home1 {
+  justify-content: space-between;
+}
+
 .home5 {
   background: var(--clr-dark);
 }
+.home61 {
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  color: white; /* ADD THIS LINE */
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/son.PNG");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.home62 {
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  color: white; /* ADD THIS LINE */
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/micro12.PNG");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.home63 {
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  color: white; /* ADD THIS LINE */
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/m3.PNG");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* About */
 .abouthero {
   width: 100vw;

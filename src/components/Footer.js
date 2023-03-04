@@ -33,14 +33,14 @@ const Footer = () => {
             <h4>
               <FaPhone
                 size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
+                style={{ color: "#FDA50F", marginRight: "2rem" }}
               />
               +234(802) 4430 439 +234(802) 4430 439
             </h4>
             <h4 className="email">
               <FaMailBulk
                 size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
+                style={{ color: "#FDA50F", marginRight: "2rem" }}
               />
               mudassar@gmail.com
             </h4>
@@ -48,7 +48,7 @@ const Footer = () => {
             <div className="location">
               <GoLocation
                 size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
+                style={{ color: "#FDA50F", marginRight: "2rem" }}
               />
               Plot C39A, Amuwo Odofin Commerical Scheme, Along Alakoso Avenue,
               Amuwo Odofin, Lagos, Nigeria
@@ -78,16 +78,16 @@ const Footer = () => {
               <div className="social col-md">
                 <FaFacebook
                   size={20}
-                  style={{ color: "#fff", marginRight: "2rem" }}
+                  style={{ color: "#FDA50F", marginRight: "2rem" }}
                 />
                 <FaLinkedin
                   size={20}
-                  style={{ color: "#fff", marginRight: "2rem" }}
+                  style={{ color: "#FDA50F", marginRight: "2rem" }}
                 />
 
                 <FaTwitter
                   size={20}
-                  style={{ color: "#fff", marginRight: "2rem" }}
+                  style={{ color: "#FDA50F", marginRight: "2rem" }}
                 />
               </div>
             </div>
@@ -97,7 +97,7 @@ const Footer = () => {
 
       <p className="mt-5 mb-1">
         ​Copyright © 2023, Fortune.dev. All Rights Reserved by{" "}
-        <span className="herotext1">MICRONUTRIENT LAB</span>
+        <span style={{ color: "#FDA50F" }}>MICRONUTRIENT LAB</span>
       </p>
     </section>
   );

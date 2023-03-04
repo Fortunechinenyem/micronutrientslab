@@ -3,7 +3,7 @@ import { BsCheckCircleFill } from "react-icons/bs";
 import { GoGraph } from "react-icons/go";
 import { BsPersonFill } from "react-icons/bs";
 import { AiFillSafetyCertificate } from "react-icons/ai";
-import logo from "../images/micro11.PNG";
+import logo from "../images/cognito.PNG";
 
 const Home4 = () => {
   return (
@@ -34,8 +34,8 @@ const Home4 = () => {
             <img
               src={logo}
               alt={Home4.PNG}
-              className="col-md"
-              height="250px"
+              className="col-md m-3"
+              height="50px"
               style={{ objectFit: "cover" }}
             />
           </div>

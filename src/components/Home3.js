@@ -1,8 +1,8 @@
 import React from "react";
 
 import logo from "../images/micro12.PNG";
-import logo1 from "../images/mi (6).jpg";
-import logo2 from "../images/micro13.PNG";
+import logo1 from "../images/micro20.jpg";
+import logo2 from "../images/micro19.jpg";
 
 const Home3 = () => {
   return (
@@ -16,7 +16,7 @@ const Home3 = () => {
                 src={logo}
                 alt={Home3.jpg}
                 className=""
-                height="250px"
+                height="350px"
                 style={{ objectFit: "cover" }}
               />
               <h5 className="mt-3 mb-3">Win with Policies</h5>
@@ -30,7 +30,7 @@ const Home3 = () => {
                 src={logo1}
                 alt={Home3.jpg}
                 className=" "
-                height="250px"
+                height="350px"
                 style={{ objectFit: "cover" }}
               />
               <h5 className="mt-3 mb-3">Strengthen Our Healthcare System</h5>
@@ -44,7 +44,7 @@ const Home3 = () => {
                 src={logo2}
                 alt={Home3.jpg}
                 className=" "
-                height="250px"
+                height="350px"
                 style={{ objectFit: "cover" }}
               />
               <h5 className="mt-3 mb-3">Build Our Future</h5>

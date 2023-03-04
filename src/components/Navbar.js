@@ -59,6 +59,7 @@ const NavLinks = () => {
           role="button"
           data-bs-toggle="dropdown"
           aria-expanded="false"
+          style={{ color: "#FDA50F" }}
         >
           About
         </Link>
