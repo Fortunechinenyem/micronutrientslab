@@ -1,7 +1,7 @@
 import React from "react";
 
 import { BsArrowUp } from "react-icons/bs";
-import logo from "../images/micro17.jpg";
+import logo from "../images/micro26.PNG";
 
 const FAQ = () => {
   return (
@@ -9,7 +9,7 @@ const FAQ = () => {
       <div className="text-center mt-4 mb-4">
         <h3 className="mt-3 mb-5">Frequently Asked Questions</h3>
       </div>
-      <div className="d-flex row ">
+      <div className="d-flex row g-4">
         <div className="col-md">
           <img
             src={logo}
@@ -19,8 +19,8 @@ const FAQ = () => {
             style={{ objectFit: "cover" }}
           />
         </div>
-        <div className="col-md m-4 text-center">
-          <div className="btn-group col-md m-2">
+        <div className="col-md  text-center">
+          <div className="btn-group col-md mb-2">
             <button
               className="btn btn-primary dropdown-toggle"
               type="button"
@@ -43,7 +43,7 @@ const FAQ = () => {
               </li>
             </ul>
           </div>
-          <div className="btn-group col-md m-2">
+          <div className="btn-group col-md mb-2">
             <button
               className="btn btn-primary dropdown-toggle"
               type="button"
@@ -67,7 +67,7 @@ const FAQ = () => {
               </li>
             </ul>
           </div>
-          <div className="btn-group col-md m-2 ">
+          <div className="btn-group col-md mb-2 ">
             <button
               className="btn btn-primary dropdown-toggle"
               type="button"
@@ -90,7 +90,7 @@ const FAQ = () => {
               </li>
             </ul>
           </div>
-          <div className="btn-group col-md m-2">
+          <div className="btn-group col-md mb-2">
             <button
               className="btn btn-primary dropdown-toggle"
               type="button"
@@ -115,7 +115,7 @@ const FAQ = () => {
               </li>
             </ul>
           </div>
-          <div className="btn-group col-md m-2">
+          <div className="btn-group col-md mb-2 ">
             <button
               className="btn btn-primary dropdown-toggle"
               type="button"

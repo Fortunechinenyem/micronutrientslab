@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 const HomeHero = () => {
   return (
     <section className="homehero ">
-      <div className="">
+      <div className="col-md">
         <div className="herotext">
           <h1>Welcome to MicroNutrients Lab</h1>
           <h5>

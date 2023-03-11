@@ -1,0 +1,27 @@
+import React from "react";
+
+const SideBar = () => {
+  return (
+    <div className="wrapper">
+      <aside>
+        <section>
+          <article className="">
+            <p>100%</p>
+            <p>Happy Clients</p>
+
+            <p>100%</p>
+            <p>Nutrition tips and Products</p>
+
+            <p>100%</p>
+            <p>Professional Experts</p>
+
+            <p>100%</p>
+            <p>Local Production</p>
+          </article>
+        </section>
+      </aside>
+    </div>
+  );
+};
+
+export default SideBar;

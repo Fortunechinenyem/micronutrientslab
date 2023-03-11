@@ -299,7 +299,9 @@ h3 {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+.home4 {
+  box-shadow: #efd80e;
+}
 /* About */
 .abouthero {
   width: 100vw;
@@ -321,6 +323,25 @@ h3 {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  justify-content: left;
+  display: block;
+}
+/* .wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+} */
+
 /* Team */
 .box {
   height: 200px;
@@ -359,20 +380,20 @@ h3 {
 
   /* Flexbox stuff */
   display: flex;
-  justify-content: center;
-  margin: 1px 0px 10px 0px;
-  align-items: center;
+  justify-content: flex-end;
+  margin: 10px 10px 0px 0px;
+  padding: 10px 10px 0px 0px;
+  align-items: left;
+
   text-align: center;
-  text-align: center;
-  color: white; /* ADD THIS LINE */
+  color: var(--clr-accent); /* ADD THIS LINE */
 
   /* Background styles */
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("./images/mi\ \(6\).jpg");
+    url("./images/micro30.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 /* cart */
 

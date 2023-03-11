@@ -7,6 +7,8 @@ import logo from "../images/micrologo.PNG";
 const Nav = styled("nav")`
   padding: 1.5rem 0;
   background-color: #ffff;
+  positon: sticky;
+  top: 0;
 `;
 const LinksWrapper = styled("ul")`
   background-color: #fff;
@@ -51,6 +53,12 @@ const NavLinks = () => {
           Home <span className="sr-only">(current)</span>
         </Link>
       </li>
+
+      <li className="nav-item">
+        <Link className="nav-link" to="/product" style={{ color: "#268f7d" }}>
+          Product
+        </Link>
+      </li>
       <li className="nav-item dropdown">
         <Link
           className="nav-link dropdown-toggle"
@@ -76,12 +84,6 @@ const NavLinks = () => {
           </li>
         </ul>
       </li>
-      <li className="nav-item">
-        <Link className="nav-link" to="/product" style={{ color: "#268f7d" }}>
-          Product
-        </Link>
-      </li>
-
       <li className="nav-item">
         <Link className="nav-link" to="/blog" style={{ color: "#268f7d" }}>
           Blog

@@ -10,9 +10,9 @@ const Assemble = () => {
           {Data1.cognito.map((item, index) => {
             return (
               <Itemcard
-                img={item.img}
                 title={item.title}
-                desc={item.desc}
+                desc1={item.desc1}
+                desc2={item.desc2}
                 price={item.price}
                 item={item}
                 key={index}

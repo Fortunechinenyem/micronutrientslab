@@ -3,57 +3,52 @@ import { BsCheckCircleFill } from "react-icons/bs";
 import { GoGraph } from "react-icons/go";
 import { BsPersonFill } from "react-icons/bs";
 import { AiFillSafetyCertificate } from "react-icons/ai";
-import logo from "../images/cognito.PNG";
 
 const Home4 = () => {
   return (
     <section className="text-center mt-2 mb-2 mx-auto w-75">
       <div className=" ">
-        <h3 className="mt-5 mb-5">Make Healthy Life With Nature Food</h3>
+        <h3 className="mt-5 mb-5">
+          Choose A Healthy Life with Micronutrients Laboratories
+        </h3>
         <div className="d-flex container row g-3">
-          <div className="col-md-4 col-sm-12 mt-3 mb-3">
+          <div className="col-md-6 col-sm-12 mt-3 mb-3">
             <div>
               <BsCheckCircleFill className="mt-3 mb-3 " />
-              <h5>Nutrition Strategies</h5>
+              <h5>FIGHT MALNUTRITION</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                We made Cognito Powder, which is our most popular product, to
+                help fight malnutrition, which affects more than 2 million
+                children.
               </p>
             </div>
             <div>
               <GoGraph className="mt-3 mb-3" />
-              <h5>Support & Motivation</h5>
+              <h5>SUPPORT HEALTHY LIVING</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Through our partnerships with NGOs, healthcare professionals and
+                institutions, we continue to provide necessary support for
+                families all over Nigeria.
               </p>
             </div>
           </div>
 
-          <div className="col-md-4 col-sm-12 mt-3 mb-3">
-            <img
-              src={logo}
-              alt={Home4.PNG}
-              className="col-md m-3"
-              height="50px"
-              style={{ objectFit: "cover" }}
-            />
-          </div>
-          <div className="col-md-4 col-sm-12">
+          <div className="col-md-6 col-sm-12">
             <div>
               <BsPersonFill className="mt-3 mb-3" />
-              <h5>Professional Expert</h5>
+              <h5>NATIONWIDE DELIVERY</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                We make it simple and easy to get the right micronutrients with
+                our quick nationwide delivery of all our products.
               </p>
             </div>
             <div>
               <AiFillSafetyCertificate className="mt-3 mb-3" />
               <h5>Certified</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Our products are produced under standard clinical conditions
+                with approval and certification by the Standard Organizations of
+                Nigeria (SON) and National Food and Drug Agency (NAFDAC).
               </p>
             </div>
           </div>

@@ -1,8 +1,8 @@
 import React from "react";
 
-import logo from "../images/micro12.PNG";
-import logo1 from "../images/micro20.jpg";
-import logo2 from "../images/micro19.jpg";
+import logo from "../images/micro23.PNG";
+import logo1 from "../images/micro24.PNG";
+import logo2 from "../images/micro25.PNG";
 
 const Home3 = () => {
   return (
@@ -14,7 +14,7 @@ const Home3 = () => {
             <div className="card col-md-4 col-sm-12">
               <img
                 src={logo}
-                alt={Home3.jpg}
+                alt={Home3.PNG}
                 className=""
                 height="350px"
                 style={{ objectFit: "cover" }}
@@ -28,7 +28,7 @@ const Home3 = () => {
             <div className="card col-md-4 col-sm-12">
               <img
                 src={logo1}
-                alt={Home3.jpg}
+                alt={Home3.PNG}
                 className=" "
                 height="350px"
                 style={{ objectFit: "cover" }}
@@ -42,7 +42,7 @@ const Home3 = () => {
             <div className="card col-md-4 col-sm-12">
               <img
                 src={logo2}
-                alt={Home3.jpg}
+                alt={Home3.PNG}
                 className=" "
                 height="350px"
                 style={{ objectFit: "cover" }}

@@ -6,7 +6,7 @@ import { CiDeliveryTruck } from "react-icons/ci";
 const Home6 = () => {
   return (
     <section className="container mt-5 mb-2">
-      <h3 className="text-center mt-4 mb-5">Our Latest News</h3>
+      <h3 className="text-center mt-4 ">Our Latest News</h3>
 
       <div
         id="carouselExampleControls"
