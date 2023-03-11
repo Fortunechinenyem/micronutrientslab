@@ -2,7 +2,6 @@ import React from "react";
 import Itemcard from "../components/productcart/Itemcard";
 import Data1 from "../components/productcart/Data";
 import logo from "../images/m3.PNG";
-import { Link } from "react-router-dom";
 
 const Product3 = () => {
   return (
