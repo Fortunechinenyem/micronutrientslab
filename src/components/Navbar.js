@@ -7,8 +7,11 @@ import logo from "../images/micrologo.PNG";
 const Nav = styled("nav")`
   padding: 1.5rem 0;
   background-color: #ffff;
-  positon: sticky;
+  positon: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
+  z-index: 1020;
 `;
 const LinksWrapper = styled("ul")`
   background-color: #fff;

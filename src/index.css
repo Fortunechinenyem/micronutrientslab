@@ -215,7 +215,6 @@ h3 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .herotext {
   color: var(--clr-light);
@@ -321,7 +320,6 @@ h3 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 aside {
   width: 30%;
