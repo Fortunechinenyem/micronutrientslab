@@ -13,6 +13,7 @@ import Cart from "./pages/Cart";
 import Blog from "./pages/Blog";
 import Navbar from "./components/Navbar";
 import Team from "./pages/Team";
+import Shop from "./pages/Shop";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/shop" element={<Shop />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/distributor" element={<Distributor />} />

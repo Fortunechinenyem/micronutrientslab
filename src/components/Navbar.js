@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { NavLink as Link, useNavigate } from "react-router-dom";
 import NavCartButton from "../components/productcart/NavCartButton";
 import logo from "../images/micrologo.PNG";
+import { BsCart, BsShop } from "react-icons/bs";
 
 const Nav = styled("nav")`
   padding: 1.5rem 0;
@@ -91,6 +92,31 @@ const NavLinks = () => {
         <Link className="nav-link" to="/blog" style={{ color: "#268f7d" }}>
           Blog
         </Link>
+      </li>
+      <li className="nav-item dropdown">
+        <Link
+          className="nav-link dropdown-toggle"
+          to="/about"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style={{ color: "#FDA50F" }}
+        >
+          <BsShop />
+        </Link>
+        <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li>
+            <Link to="/shop" className="dropdown-item nav-link">
+              Shop
+            </Link>
+          </li>
+          <li>
+            <Link to="/cart" className="dropdown-item nav-link">
+              Cart <BsCart />
+            </Link>
+          </li>
+        </ul>
       </li>
       <li className="nav-item">
         <Link className="nav-link" to="/contact" style={{ color: "#268f7d" }}>

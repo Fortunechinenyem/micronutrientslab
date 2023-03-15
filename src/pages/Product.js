@@ -17,7 +17,7 @@ const Product = () => {
 
       <Testimonials />
       <Product4 />
-      <Product2 />
+      <Product2 className="mb-4" />
       <Footer />
     </>
   );

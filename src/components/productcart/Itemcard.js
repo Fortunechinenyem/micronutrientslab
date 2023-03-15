@@ -14,7 +14,7 @@ function Itemcard(props) {
             className="btn btn-warning mt-3 mb-3"
             onClick={() => addItem(props.item)}
           >
-            Order Now
+            Add to Cart
           </button>
         </div>
       </div>

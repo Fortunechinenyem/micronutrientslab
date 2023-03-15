@@ -8,7 +8,7 @@ const Product2 = () => {
   return (
     <section>
       <div>
-        <h2 className="text-center mt-3 mb-4">Use Cases</h2>
+        <h2 className="text-center mt-3 mb-5">Use Cases</h2>
         <div className="d-flex row g-5 mx-auto ">
           <div className="col-md text-center">
             <img
