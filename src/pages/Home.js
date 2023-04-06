@@ -1,4 +1,5 @@
 import React from "react";
+import DistributorLink from "../components/DistributorLink";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 
@@ -24,6 +25,7 @@ const Home = () => {
       <FAQ />
       <Home5 />
       <Home6 />
+      <DistributorLink />
       <Footer />
     </>
   );

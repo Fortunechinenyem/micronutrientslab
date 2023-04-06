@@ -7,7 +7,7 @@ const AboutHero = () => {
     <section className="container mt-2 mb-4">
       <div className=" mx-auto ">
         <div className="col-md text-center" id="#company">
-          <h1>About Our Company</h1>
+          <h1>About Us</h1>
         </div>
 
         <img

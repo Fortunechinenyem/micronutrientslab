@@ -29,7 +29,7 @@ const FAQ = () => {
               data-bs-auto-close="false"
               aria-expanded="false"
             >
-              Who needs Cognito? <BsArrowUp />
+              What is Cognito® Instant micronutrient powder ? <BsArrowUp />
             </button>
             <ul
               className="dropdown-menu"
@@ -37,8 +37,20 @@ const FAQ = () => {
             >
               <li>
                 <p className="dropdown-item">
-                  Children, Parents, Grandparents. Everyone who needs to improve
-                  their lifestyle and the quality of their health needs Cognito.
+                  Cognito® Instant micronutrient powder (Cognito® Instant MNP)
+                  is a single-serve blend of 15 essential micronutrients (10
+                  vitamins and 5 minerals). When a 1-gram sachet of Cognito®
+                  Instant MNP is added to the complementary foods of children 6
+                  months to 59 months (6 months - 5 years of age), it helps to
+                  improve the nutritive content of such foods and provides a
+                  100% Recommended Nutrient Intake (RNI) for children within
+                  that age group. Cognito® Instant MNP is added to any
+                  semi-solid food and porridge at the point of consumption. It
+                  is an easy and cheap form of food fortification (home
+                  fortification) and does not affect the taste, colour or
+                  texture of the food to which it is added. Older children and
+                  adults can also benefit from the nutritive goodness contained
+                  in Cognito® Instant MNP.
                 </p>
               </li>
             </ul>
@@ -52,7 +64,8 @@ const FAQ = () => {
               data-bs-auto-close="false"
               aria-expanded="false"
             >
-              How to Order? <BsArrowUp />
+              What Kind of food can I put Cognito® Instant micronutrient powder
+              into? <BsArrowUp />
             </button>
             <ul
               className="dropdown-menu"
@@ -60,9 +73,9 @@ const FAQ = () => {
             >
               <li>
                 <p className="dropdown-item">
-                  You can order through the website for orders under 50 pieces,
-                  For orders above 50 pieces, please contact us through the
-                  following numbers.
+                  Cognito® Instant micronutrient powder MNP can be added to any
+                  semi-solid foods and porridges including pap, oats, cereals
+                  and so on.
                 </p>
               </li>
             </ul>
@@ -76,7 +89,7 @@ const FAQ = () => {
               data-bs-auto-close="false"
               aria-expanded="false"
             >
-              At what age should Children take vitamins? <BsArrowUp />
+              For how long should Cognito® Instant MNP be used? <BsArrowUp />
             </button>
             <ul
               className="dropdown-menu"
@@ -84,8 +97,12 @@ const FAQ = () => {
             >
               <li>
                 <p className="dropdown-item">
-                  Children aged 6 months - 4 years can take nutrient
-                  supplements.
+                  The World Health Organisation (WHO) recommends that children
+                  be breastfed exclusively for six (6) months after which
+                  complementary feeding and Cognito® Instant MNP can be
+                  introduced. One (1) sachet per day or every other day is
+                  recommended i.e. a pack of 30 sachets is to be consumed
+                  between 30 to 60 days.
                 </p>
               </li>
             </ul>
@@ -99,7 +116,9 @@ const FAQ = () => {
               data-bs-auto-close="false"
               aria-expanded="false"
             >
-              What vitamins are good for children? <BsArrowUp />
+              I already give my children fruits and vegetables, why should I
+              include Cognito® Instant micronutrient powder in their meals?{" "}
+              <BsArrowUp />
             </button>
             <ul
               className="dropdown-menu"
@@ -107,10 +126,9 @@ const FAQ = () => {
             >
               <li>
                 <p className="dropdown-item">
-                  Vitamin D, Zinc, and the essential micronutrients contained in
-                  Cognito MNP are excellent for Children development especially
-                  in underweight children and those with developmental issues.
-                  Can I replace cooked food with Cognito?
+                  Yes, Fruits and vegetables are good sources of vitamins,
+                  however, including Cognito® Instant MNP in meals ensures your
+                  children do not miss out on daily recommended nutrient intake.
                 </p>
               </li>
             </ul>
@@ -124,7 +142,9 @@ const FAQ = () => {
               data-bs-auto-close="false"
               aria-expanded="false"
             >
-              Can I replace cooked food with cognito? <BsArrowUp />
+              Why must Cognito® Instant micronutrient powder be added at
+              atemperature conducive for eating and the food be eaten within 30
+              minutes of addition? <BsArrowUp />
             </button>
             <ul
               className="dropdown-menu"
@@ -132,9 +152,38 @@ const FAQ = () => {
             >
               <li>
                 <p className="dropdown-item">
-                  Cognito MNP is intended to enhance the quantity obtained from
-                  cooked meals. It’s advisable to combine this supplement with
-                  semi solid meals for improved effectiveness
+                  Vitamins and minerals are unstable at high temperatures hence
+                  exposure to Cognito® Instant MNP (already added to food) at
+                  such temperature could result in discoloration of the food
+                  which is not visually appealing. However, this does not affect
+                  its nutritional value. This discolouration also applies to
+                  leaving the food with Cognito® for more than 30 minutes.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className="btn-group col-md mb-2 ">
+            <button
+              className="btn btn-primary dropdown-toggle"
+              type="button"
+              id="dropdownMenuClickable"
+              data-bs-toggle="dropdown"
+              data-bs-auto-close="false"
+              aria-expanded="false"
+            >
+              Where can I get Cognito® Instant micronutrient Powder MNP?{" "}
+              <BsArrowUp />
+            </button>
+            <ul
+              className="dropdown-menu"
+              aria-labelledby="dropdownMenuClickable"
+            >
+              <li>
+                <p className="dropdown-item">
+                  Cognito® Instant MNP can be purchased from our online store,
+                  supermarkets and shops near you. For bulk commercial
+                  purchases, you can contact us via a call or email. Kindly view
+                  our contact page for more details.
                 </p>
               </li>
             </ul>

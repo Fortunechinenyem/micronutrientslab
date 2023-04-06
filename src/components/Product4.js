@@ -55,7 +55,7 @@ const Product4 = () => {
         />
         <div className="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">
-            Your Message
+            Comments / Questions
           </label>
           <textarea
             className="form-control"
@@ -66,7 +66,7 @@ const Product4 = () => {
 
         <div className="col-12 text-center">
           <button className="btn btn-warning" type="submit">
-            Submit
+            Send Message
           </button>
         </div>
       </form>

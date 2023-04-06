@@ -6,10 +6,12 @@ const HomeHero = () => {
     <section className="homehero ">
       <div className="col-md">
         <div className="herotext">
-          <h1>Welcome to MicroNutrients Lab</h1>
+          <h1>MICRONUTRIENT LABORATORIES LIMITED (MLL)</h1>
           <h5>
-            Manufacturer and Distributor of{" "}
-            <span style={{ color: "#FDA50F" }}>COGNITO PRODUCTS</span>
+            Manufacturers of{" "}
+            <span style={{ color: "#FDA50F" }}>
+              COGNITO® INSTANT MICRONUTRIENT POWDER{" "}
+            </span>
           </h5>
           <Link to="/about" className="btn btn-warning mt-4">
             Read More <BsArrowRight />

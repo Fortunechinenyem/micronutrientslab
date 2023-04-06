@@ -1,7 +1,7 @@
 import React from "react";
 import Itemcard from "../components/productcart/Itemcard";
 import Data1 from "../components/productcart/Data";
-import logo from "../images/m3.PNG";
+import logo from "../images/micro31.PNG";
 
 const Product3 = () => {
   return (

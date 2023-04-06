@@ -35,8 +35,8 @@ const Home3 = () => {
               />
               <h5 className="mt-3 mb-3">Strengthen Our Healthcare System</h5>
               <p>
-                Nutritionists, Pharmacists, Parents Paediatriations, Healthcare
-                professionals
+                Nutritionists, pharmacists, parents, pediatricians, and
+                healthcare professionals
               </p>
             </div>
             <div className="card col-md-4 col-sm-12">

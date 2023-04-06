@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { BsArrowRight } from "react-icons/bs";
+
 import logo from "../images/micro18.jpg";
 
 const Home1 = () => {
@@ -8,8 +7,7 @@ const Home1 = () => {
     <section className="container mt-4 mb-2">
       <div>
         <div className="col-md text-center">
-          <p>ABOUT COGNITO</p>
-          <h2>WIN THE FIGHT AGAINST MALNUTRITION WITH COGNITO</h2>
+          <h2>WIN THE FIGHT AGAINST MALNUTRITION WITH COGNITO® MNP </h2>
           <div className="d-flex row g-5 mx-auto home1 mt-2">
             <div className="col-md">
               <img
@@ -22,35 +20,26 @@ const Home1 = () => {
             </div>
             <div className="col-md ">
               <p>
-                UNICEF state that Nigeria has the second-highest burden of
-                stunted children globally. Sadly, an estimated two millions
-                children in Nigeria suffer from Severe Acute Malnutrition (SAM),
-                but the country reached only two out of every ten children
-                affected with treatment. Cognito® MNP is a well-formulated
-                single-serve blend of 15 essential micronutrients (10 vitamins
-                and five minerals). One sachet of Cognito is sufficient to
-                provide 100% recommended nutrient intake (RNI) for infants and
-                young children. This supplement is also recommended for adults.
-                It is packed in affordable 1g sachets to ensure that you are
-                getting exactly the amount you need without human error in
-                measurement via under or over scooping. Cognito was formulated
-                with the aim of treating Severe Acute Malnutrition and it has
-                achieved this by impacting over 350,000 children. Micronutrient
-                Laboratory delivers Cognito within 48-96 hours of request.
-                Constant intake of Cognito has enabled children to regain
-                mobility and other impairment lost due to malnutrition. It also
-                boosts the immune system for healthy living. Approved and
-                certified (MANCAP) by the Standard Organization of Nigeria,
-                Cognito is affordable, effective and remains the best supplement
-                for child growth. Dietary supplements such as Cognito MNP are
-                intended to enhance the quantity of vitamins and minerals
-                consumed through a regular diet not to replace it entirely.
+                Cognito® Instant MNP, Micronutrient Laboratories Limited's (MLL)
+                flagship product has impacted over 350,000 children across
+                Nigeria. This unique formulation is produced with the highest
+                Food Safety Standards and it is NAFDAC (A8-4768) approved and
+                MANCAP (FT-12799)-certified by the Standards Organization of
+                Nigeria (SON). Cognito® Instant MNP is a special blend of 15
+                essential micronutrients (10 vitamins and 5 minerals) in a
+                1-gram serving size. One sachet of Cognito® Instant MNP provides
+                100% of the Recommended Nutrient Intake (RNI) for a child
+                between the age of 6 months to 59 months (6 months – 5 years).
+                Other family members can also enjoy the nutritious goodness
+                contained in Cognito® Instant MNP. Dietary food supplements such
+                as Cognito® Instant MNP are intended to enhance the nutritional
+                content of most Nigerian staples that lack the necessary
+                vitamins and minerals needed for the overall well-being, growth
+                and development of the body. In line with our commitment to
+                reduce micronutrient deficiency and also maintain the
+                nutritional status of the populace, MLL ensures rapid supply and
+                delivery of Cognito® Instant MNP across Nigeria and Africa.
               </p>
-              <div className="text-center">
-                <Link to="/about" className="btn btn-warning mt-4">
-                  Read More <BsArrowRight />
-                </Link>
-              </div>
             </div>
           </div>
         </div>

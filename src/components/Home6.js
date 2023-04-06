@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
-import { CiDeliveryTruck } from "react-icons/ci";
 
 const Home6 = () => {
   return (
@@ -36,7 +35,7 @@ const Home6 = () => {
           </div>
 
           <div className="carousel-item active Home63 mt-3 herotext">
-            <h4>Cognito Powder fights MALNUTRITION</h4>
+            <h4>COGNITO® MNP fights MALNUTRITION</h4>
 
             <p>February 26, 2023</p>
 
@@ -69,14 +68,6 @@ const Home6 = () => {
           ></span>
           <span className="visually-hidden">Next</span>
         </button>
-      </div>
-      <div className="text-center mt-5 mb-4">
-        <h3 className="text-center">Join Our Distributorship Community</h3>
-      </div>
-      <div className="text-center">
-        <Link to="/distributor" className="btn btn-warning mt-4 mb-3">
-          Become A distributor <CiDeliveryTruck />
-        </Link>
       </div>
     </section>
   );

@@ -6,7 +6,7 @@ const SideBar = () => {
       <aside>
         <section>
           <article className="">
-            <p className="asidetext">100%</p>
+            <p className="text">100%</p>
             <p>Happy Clients</p>
 
             <p className="asidetext">100%</p>
