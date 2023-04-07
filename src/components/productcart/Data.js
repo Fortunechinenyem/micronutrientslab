@@ -1,11 +1,21 @@
+import image1 from "../productcart/store/image/micro13.PNG";
+import image2 from "../productcart/store/image/micro31.PNG";
+
 const Data1 = {
   cognito: [
     {
       id: 1,
-
-      title: "OUR PRODUCTS ARE POCKET FRIENDLY",
-      desc1: "UNIT PACK PRICE: N1,500",
-      desc2: "CARTON PRICE: N15,000",
+      img: image1,
+      title: "Unit Pack",
+      desc: "-",
+      price: 1500,
+    },
+    {
+      id: 2,
+      img: image2,
+      title: "Carton ",
+      desc: "-",
+      price: 15000,
     },
   ],
 };

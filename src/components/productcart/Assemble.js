@@ -1,6 +1,6 @@
 import React from "react";
 import Itemcard from "./Itemcard";
-import Data1 from "../productcart/Data";
+import Data1 from "./Data";
 
 const Assemble = () => {
   return (
@@ -10,9 +10,9 @@ const Assemble = () => {
           {Data1.cognito.map((item, index) => {
             return (
               <Itemcard
+                img={item.img}
                 title={item.title}
-                desc1={item.desc1}
-                desc2={item.desc2}
+                desc={item.desc}
                 price={item.price}
                 item={item}
                 key={index}

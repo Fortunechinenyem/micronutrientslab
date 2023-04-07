@@ -30,7 +30,7 @@ const Kart = () => {
                   <p>Quantity ({item.quantity})</p>
                   <div>
                     <button
-                      className="btn btn-warning ms-2 mb-3"
+                      className="btn btn-success ms-2 mb-3"
                       onClick={() =>
                         updateItemQuantity(item.id, item.quantity - 1)
                       }
@@ -38,7 +38,7 @@ const Kart = () => {
                       -
                     </button>
                     <button
-                      className="btn btn-warning ms-2 mb-3"
+                      className="btn btn-success ms-2 mb-3"
                       onClick={() =>
                         updateItemQuantity(item.id, item.quantity + 1)
                       }
@@ -69,7 +69,7 @@ const Kart = () => {
           <button className="btn btn-dark m-2 " onClick={() => emptyCart()}>
             Clear Cart
           </button>
-          <button className="btn btn-Warning ">
+          <button className="btn btn-success ">
             <Link to="/payment" className="nav-link">
               {" "}
               Payment

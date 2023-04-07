@@ -53,8 +53,9 @@ const About5 = () => {
             />
             <h5>Consult Us</h5>
             <p>
-              We work with individuals and organizations to create custom
-              intervention strategies.
+              We work with individuals and organizations to create custom made
+              intervention strategies better suited for your product to deliver
+              the desired outcome.
             </p>
           </div>
         </div>
