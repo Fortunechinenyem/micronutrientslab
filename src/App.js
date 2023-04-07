@@ -14,6 +14,7 @@ import Blog from "./pages/Blog";
 import Navbar from "./components/Navbar";
 import Team from "./pages/Team";
 import Shop from "./pages/Shop";
+import PaymentPage from "./pages/Payment";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/distributor" element={<Distributor />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/payment" element={<PaymentPage />} />
       </Routes>
     </article>
   );
